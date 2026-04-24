@@ -28,7 +28,14 @@
     <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/response.css">
-    
+    <link rel="stylesheet" href="/portfolio-nav.css">
+    <style>
+        body { padding-top: 44px !important; }
+        #header { top: 44px !important; }
+        .mobile-menu { top: 119px !important; }
+        #header.addMobile .wrap .gap .right .mobile-menu { top: 104px !important; }
+        .pf-nav { background: #0a0a0a; }
+    </style>
 
     <!-- 오픈소스 -->   
     <script src="./js/lib/jquery-1.12.4.min.js"></script>    
@@ -59,6 +66,15 @@
 
 </head>
 <body id="intro">
+<nav class="pf-nav">
+    <div class="pf-nav-inner">
+        <a href="/" class="pf-nav-logo">Portfolio</a>
+        <div class="pf-nav-links">
+            <a href="/01_brando_restaurant_responsive_website/" class="active">Brando Restaurant</a>
+            <a href="/02_portfolio_uiux_responsive_honggo_fashion/">Hongo Fashion</a>
+        </div>
+    </div>
+</nav>
 <ul id="skip">
     <li><a href="#header" title="메뉴바로가기">메뉴바로가기</a></li>
     <li><a href="#main" title="메인바로가기">메인바로가기</a></li>

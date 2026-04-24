@@ -15,10 +15,27 @@
     <link rel="apple-touch-icon" href="./images/logo_icon.png">
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="stylesheet" href="/portfolio-nav.css">
+    <style>
+        body { padding-top: 44px !important; }
+        #wrap #header { top: 44px !important; }
+        #wrap #header.on { top: -26px !important; }
+        .pf-nav { background: #1a1a2e; }
+    </style>
+
     <script src="./script/script.js" defer></script>
 
 </head>
 <body>
+<nav class="pf-nav">
+    <div class="pf-nav-inner">
+        <a href="/" class="pf-nav-logo">Portfolio</a>
+        <div class="pf-nav-links">
+            <a href="/01_brando_restaurant_responsive_website/">Brando Restaurant</a>
+            <a href="/02_portfolio_uiux_responsive_honggo_fashion/" class="active">Hongo Fashion</a>
+        </div>
+    </div>
+</nav>
 <div id="wrap">
     <header id="header">
         <div class="left">

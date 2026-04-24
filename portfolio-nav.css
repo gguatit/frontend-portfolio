@@ -1,0 +1,12 @@
+.pf-nav{position:fixed;top:0;left:0;width:100%;height:44px;z-index:100000;background:#0a0a0a;border-bottom:1px solid rgba(255,255,255,0.08);font-family:'Montserrat',sans-serif;}
+.pf-nav-inner{max-width:1400px;margin:0 auto;height:100%;display:flex;align-items:center;justify-content:space-between;padding:0 24px;}
+.pf-nav-logo{color:#fff;font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;}
+.pf-nav-links{display:flex;gap:8px;}
+.pf-nav-links a{color:rgba(255,255,255,0.6);font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:6px 14px;border-radius:4px;transition:all .2s;}
+.pf-nav-links a:hover{background:rgba(255,255,255,0.1);color:#fff;}
+.pf-nav-links a.active{background:rgba(255,255,255,0.15);color:#fff;}
+@media all and (max-width:768px){
+    .pf-nav-inner{padding:0 12px;}
+    .pf-nav-logo{font-size:12px;}
+    .pf-nav-links a{font-size:9px;padding:4px 8px;}
+}
